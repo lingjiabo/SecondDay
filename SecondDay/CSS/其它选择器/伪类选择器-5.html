@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器-伪类选择器-4</title>
+    <style>
+        .container{
+            border: 1px solid red;
+        }
+        .container:before{
+            content: "谁的前面呢?";
+        }
+        .container:after{
+            content: "谁的后面呢";
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p>这是一个段落!</p>
+</div>
+</body>
+</html>

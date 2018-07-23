@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兄弟选择器2</title>
+    <style>
+        div+p{
+            color: red;
+        }
+        /*选择紧接着div出现的P元素.*/
+    </style>
+</head>
+<body>
+<div>
+    <p class="p1">P1</p>
+    <p class="p1">P2</p>
+    <p class="p1">P3</p>
+    <p class="p1">P4</p>
+</div>
+<p class="p1">P5</p>
+<p class="p1">P5_1</p>
+<p class="p1">P5_2</p>
+<span>这是剧情乱入</span> <br>
+<p class="p1">P6</p>
+</body>
+</html>

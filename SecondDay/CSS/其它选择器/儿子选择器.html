@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器-儿子选择器</title>
+    <style>
+        .one{
+            margin: 0px auto;
+            width: 500px;
+            height: 500px;
+            border: 1px dashed red;
+        }
+        /*后代选择器*/
+        /*只要是.one下的所有div都有效*/
+        .one div{
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            border: 1px solid black;
+        }
+        /*儿子选择器*/
+        .one > div{
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+    <div class="two">
+        <div class="three">
+            <div class="four">
+
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-ID和类的优先级</title>
+    <style>
+        p{
+            color: red;
+        }
+        .p1{
+            color: darkgreen;
+        }
+        #pk1{color: yellow;}
+        #pk2{color: pink;}
+        #pk3{color: black;}
+    </style>
+</head>
+<body>
+<!--ID 的是值唯一的.而类的值是可以相同的-->
+
+<p id="pk1" class="p1">ABC</p>
+<p id="pk2" class="p1">ABC</p>
+<p id="pk3" class="p1">ABC</p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS选择器-伪类选择器</title>
+    <style>
+        /*提示：在 CSS 定义中，a:hover 必须被置于 a:link 和 a:visited 之后，才是有效的。*/
+        /*提示：在 CSS 定义中，a:active 必须被置于 a:hover 之后，才是有效的。*/
+        /*当超链接被访问过的样式*/
+        a:visited{
+            color: black;
+        }
+        /*当超链接未被访问时*/
+        a:link{
+            color: red;
+        }
+        /*鼠标悬停在超链接上*/
+        a:hover{
+            color: green;
+        }
+        /*鼠标单击超链接,且未放开的颜色*/
+        a:active{
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+<h3>锚伪类</h3>
+<a href="http://www.baihe.com/">百合网</a>
+</body>
+</html>

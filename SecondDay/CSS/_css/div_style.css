@@ -1,0 +1,22 @@
+/*通过标签来设置通用*/
+div{
+    border: 1px dotted black;
+    width: 100%;
+    /*控件的高度是不可以用百分比的*/
+    height: 300px;
+}
+.top{
+     border: 1px solid red;
+ }
+/*问题: inner的线条是什么样式的*/
+.top_inner{
+    background-color: chartreuse;
+    margin: 5px;
+}
+.main{
+    background-color: aqua;
+}
+.foot{
+    background-color: antiquewhite;
+}
+

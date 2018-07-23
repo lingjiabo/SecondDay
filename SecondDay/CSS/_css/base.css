@@ -1,0 +1,21 @@
+/*基本CSS样式*/
+p{
+    color: yellow;
+    /*font:
+    font-style     字体风格
+    font-variant   字体变形
+    font-weight    字体粗细
+    font-size      字体大小
+    font-family    字体
+    */
+    font: italic normal normal 40px 华文行楷;
+    /*字间距*/
+    letter-spacing: 10px;
+    /*0.1 向右 */
+    /*0.5 向下*/
+    /*0.1 模糊程度,越大越不清晰*/
+    /*aqua 阴影的显式颜色*/
+
+    text-shadow: 0.1em 0.5em 0.05em aqua;
+}
+

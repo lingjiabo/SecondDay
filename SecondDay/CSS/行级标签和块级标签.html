@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行级标签和块级标签</title>
+    <!--写CSS样式-->
+    <style>
+        /*元素选择器*/
+        div{
+            margin: 0px;
+            padding: 0px;
+            /*1px 代表边框厚度,*/
+            /*solid 代表边框线的样式*/
+            /*red 代表边框线的颜色*/
+            border: 0px solid red;
+        }
+        /*ID选择器.通过ID值找到元素*/
+        #top{
+            width: 100%;
+            height: 200px;
+            background-color: darkgoldenrod;
+        }
+        #container{
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+            background-color: pink;
+        }
+        #container #left{
+            float: left;
+            width: 50%;
+            height: 500px;
+            background-color: black;
+        }
+        #container #right{
+            float: right;
+            width: 50%;
+            height: 500px;
+            background-color: red;
+        }
+        #foot{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+<!--整个容器-->
+<div>
+    <!--头-->
+    <div id="top">
+
+    </div>
+    <div id="container">
+        <!--左-->
+        <div id="left">
+
+        </div>
+        <!--右-->
+        <div id="right">
+
+        </div>
+    </div>
+    <div id="foot">
+
+    </div>
+</div>
+</body>
+</html>
